@@ -1,6 +1,18 @@
 hash-format = "sha256"
 
 [[files]]
+file = "CLAUDE.md"
+hash = "1761d168fbe8fed2caac5b92309131d99715658943c24edd28336235ed6686fc"
+
+[[files]]
+file = "README.md"
+hash = "c6d94d1721e32dda628a63199c4640f907cdf0df3f88fb0adf71219e4f3947cd"
+
+[[files]]
+file = "USAGE.md"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
 file = "mise.toml"
 hash = "29a6236935f943d8258437dd123c2cb77f86a08ecd546af08f0e688f7cfa5928"
 
@@ -60,6 +72,11 @@ hash = "9632e3a695f69473d879e285e46007fd5037cb5abc8db02a8bec79689864d0fc"
 metafile = true
 
 [[files]]
+file = "mods/create-jetpack.pw.toml"
+hash = "157b009cd9b2a7f55f2b7d0abdc2f9f7d49eade208a786c71cc6d2f8430bba4a"
+metafile = true
+
+[[files]]
 file = "mods/create-mechanical-chicken.pw.toml"
 hash = "bc5c6f8ea0e3a739da6977506ebeece414c737066660134d3c2469be94677618"
 metafile = true
@@ -77,6 +94,11 @@ metafile = true
 [[files]]
 file = "mods/create.pw.toml"
 hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
+metafile = true
+
+[[files]]
+file = "mods/createaddition.pw.toml"
+hash = "350357b34feae2f0971d114ba856e4915e508efec110eea5ebdeac419d515e08"
 metafile = true
 
 [[files]]
@@ -120,8 +142,13 @@ hash = "c9e181185e3177d43fc9bd8d919288ac1bc0ce6b85e7049890f3eb231f5be10d"
 metafile = true
 
 [[files]]
+file = "mods/packet-fixer.pw.toml"
+hash = "84cb0dcad9ac46d22adba4fb7924951affa6ac5e46027a3b25fa9a0db8d91b2b"
+metafile = true
+
+[[files]]
 file = "mods/sable.pw.toml"
-hash = "ff4571392f205a6b5a6c6397bff7efa93e12e905b0850127c97bbc6980acfb79"
+hash = "a1fa121ed5d0207e4cdd3f545d043f68f9a4bb38dcb21278b968fad5e4cefe4a"
 metafile = true
 
 [[files]]
@@ -161,5 +188,5 @@ metafile = true
 
 [[files]]
 file = "mods/when-dungeons-arise.pw.toml"
-hash = "1ff09a2c14154efcdd279c55e2f44ff647f69817a2fad5553c0829e35725c3d5"
+hash = "485906ff55a5d6ad06070abb80663d6adadc3e4b32f8b52240d8596e7aaef9fa"
 metafile = true
