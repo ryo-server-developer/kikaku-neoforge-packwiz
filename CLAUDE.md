@@ -18,7 +18,9 @@ kikaku-server 本体の Kubernetes マニフェストは別リポジトリ([rouz
 
 ## 公開範囲(重要)
 
-GitHub Pages の source path は `/docs` に設定しており、**`docs/` 配下のファイルのみが PrismLauncher 等のクライアントから参照可能**です。`README.md` / `CLAUDE.md` / `USAGE.md` / `mise.toml` はリポジトリ直下に置き、意図的に非公開にしています。新しいファイルを追加する際、公開してよいもの以外は `docs/` の外に置くこと。
+GitHub Pages の source path は `/docs` に設定しており、**`docs/` 配下のファイルのみが Web / PrismLauncher 等のクライアントから参照可能**です。`README.md` / `CLAUDE.md` / `mise.toml` はリポジトリ直下に置き、意図的に非公開にしています。新しいファイルを追加する際、公開してよいもの以外は `docs/` の外に置くこと。
+
+`docs/` 配下には packwiz が必要とするファイル(`pack.toml` / `index.toml` / `mods/`)と、人間向けの Web ページ(`USAGE.md` / `img/`)が混在しています。**人間向けファイルを追加・変更したら必ず `docs/.packwizignore` にも追記すること**。追記を忘れると、そのファイルが packwiz の `index.toml` に取り込まれ、PrismLauncher 等のクライアントの Minecraft インスタンスへ同期されてしまう(過去に `README.md` 等で実際に発生した不具合)。
 
 ## 変更時の基本方針
 

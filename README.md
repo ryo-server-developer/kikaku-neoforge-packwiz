@@ -12,11 +12,16 @@ https://ryo-server-developer.github.io/kikaku-neoforge-packwiz/pack.toml
 
 ## 構成
 
-GitHub Pages の公開範囲を packwiz 用ファイルだけに絞るため、公開対象は `docs/` 配下のみです(Pages の設定で source path を `/docs` にしている)。`README.md` / `CLAUDE.md` / `USAGE.md` / `mise.toml` はリポジトリ直下にあり、**クライアント(PrismLauncher等)からは参照できません**。
+GitHub Pages の source path は `/docs` です。`docs/` 配下だけが Web サイト・PrismLauncher等のクライアントの双方から見えます。`README.md` / `CLAUDE.md` / `mise.toml` はリポジトリ直下にあり、**非公開**です。
 
-- `docs/pack.toml` / `docs/index.toml`: packwiz 本体の定義ファイル(Pages公開対象)
-- `docs/mods/*.pw.toml`: MOD ごとのダウンロード元URL・ハッシュ・更新元情報(jar実体は含まない、Pages公開対象)
+- `docs/pack.toml` / `docs/index.toml`: packwiz 本体の定義ファイル
+- `docs/mods/*.pw.toml`: MOD ごとのダウンロード元URL・ハッシュ・更新元情報(jar実体は含まない)
+- `docs/USAGE.md` / `docs/img/`: 導入手順ガイド(人間向けの解説ページ、[USAGEページ](https://ryo-server-developer.github.io/kikaku-neoforge-packwiz/USAGE.html)として公開)
+- `docs/.packwizignore`: `USAGE.md` / `img/` / `_config.yml` を packwiz の `index.toml` から除外する設定(gitignore形式)。これにより人間向けドキュメントが誤ってクライアントに同期されるのを防いでいる
+- `docs/_config.yml`: GitHub Pages(Jekyll)のテーマ設定。Markdownファイルをスタイル付きページとして表示するために使用
 - Minecraft: `1.21.1` / NeoForge: `21.1.251`(初期化時点)
+
+**新しく人間向けのファイル(ドキュメント・画像等)を `docs/` に追加する場合は、`docs/.packwizignore` にも追記して packwiz のインデックスから除外すること。**
 
 以降の `packwiz` コマンドは全て `docs/` ディレクトリ内で実行してください。
 
