@@ -1,22 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "CLAUDE.md"
-hash = "1761d168fbe8fed2caac5b92309131d99715658943c24edd28336235ed6686fc"
-
-[[files]]
-file = "README.md"
-hash = "c6d94d1721e32dda628a63199c4640f907cdf0df3f88fb0adf71219e4f3947cd"
-
-[[files]]
-file = "USAGE.md"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "mise.toml"
-hash = "29a6236935f943d8258437dd123c2cb77f86a08ecd546af08f0e688f7cfa5928"
-
-[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "187eafde5974beee1263538b462b7b8fe2fc8948c5d413980d9796d55928580b"
 metafile = true

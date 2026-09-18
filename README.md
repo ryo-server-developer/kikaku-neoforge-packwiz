@@ -12,9 +12,13 @@ https://ryo-server-developer.github.io/kikaku-neoforge-packwiz/pack.toml
 
 ## 構成
 
-- `pack.toml` / `index.toml`: packwiz 本体の定義ファイル
-- `mods/*.pw.toml`: MOD ごとのダウンロード元URL・ハッシュ・更新元情報(jar実体は含まない)
+GitHub Pages の公開範囲を packwiz 用ファイルだけに絞るため、公開対象は `docs/` 配下のみです(Pages の設定で source path を `/docs` にしている)。`README.md` / `CLAUDE.md` / `USAGE.md` / `mise.toml` はリポジトリ直下にあり、**クライアント(PrismLauncher等)からは参照できません**。
+
+- `docs/pack.toml` / `docs/index.toml`: packwiz 本体の定義ファイル(Pages公開対象)
+- `docs/mods/*.pw.toml`: MOD ごとのダウンロード元URL・ハッシュ・更新元情報(jar実体は含まない、Pages公開対象)
 - Minecraft: `1.21.1` / NeoForge: `21.1.251`(初期化時点)
+
+以降の `packwiz` コマンドは全て `docs/` ディレクトリ内で実行してください。
 
 ## セットアップ(初回のみ)
 
@@ -33,24 +37,18 @@ MOD 管理は必ず `packwiz` CLI 経由で行ってください。`mods/*.pw.to
 
 ### 追加
 
-Modrinth上のMODを追加する場合:
+**特定バージョンを指定したい場合(推奨)**: Modrinthの「バージョンページのURL」をそのまま渡します。プロジェクトと対象バージョン(ローダー/MCバージョン込み)を一発で解決できるため、スラッグだけの指定で誤ったローダー版(例: NeoForge対応のつもりがFabric版を取得してしまう)を引く事故を防げます。
 
 ```bash
+cd docs
+mise exec -- packwiz modrinth add "https://modrinth.com/mod/<slug>/version/<version-id-or-number>" -y
+```
+
+**最新版でよい場合**: スラッグだけを渡します(対応ローダー/MCバージョンに合う最新版が自動選択されます)。
+
+```bash
+cd docs
 mise exec -- packwiz modrinth add <slug> -y
-```
-
-対話プロンプトでバージョン(MC/ローダーに適合するもの)が自動選択されます。特定のバージョンを明示したい場合は、`--project-id` と `--version-id` を**両方セットで**指定してください(スラッグを位置引数として渡しつつ `--version-id` を指定するとエラーになります)。
-
-```bash
-# 例: Modrinthのプロジェクトページ/バージョンページのIDを指定して追加
-mise exec -- packwiz modrinth add --project-id <slug-or-project-id> --version-id <version-id> -y
-```
-
-Version ID は Modrinth の各バージョンページURL末尾、または以下のAPIで確認できます。
-
-```bash
-curl -s -H "User-Agent: <your-identifier>" \
-  "https://api.modrinth.com/v2/project/<slug>/version" | jq '.[] | {id, version_number}'
 ```
 
 CurseForge限定配布のMODは `packwiz curseforge add <slug>` を使用します。
@@ -73,10 +71,10 @@ mise exec -- packwiz remove <slug>
 
 ### 反映
 
-コマンド実行後、`pack.toml` / `index.toml` / `mods/*.pw.toml` の差分を確認し、コミット・`main` へ push してください。push すると GitHub Pages が自動的に再ビルドされ、kikaku-server の次回起動時から新しいMOD構成が取得されます。
+コマンド実行後、`docs/pack.toml` / `docs/index.toml` / `docs/mods/*.pw.toml` の差分を確認し、コミット・`main` へ push してください。push すると GitHub Pages が自動的に再ビルドされ、kikaku-server の次回起動時から新しいMOD構成が取得されます。
 
 ```bash
-git add pack.toml index.toml mods/
+git add docs/pack.toml docs/index.toml docs/mods/
 git commit -m "MODを更新"
 git push
 ```
