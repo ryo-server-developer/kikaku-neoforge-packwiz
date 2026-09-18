@@ -1,0 +1,13 @@
+name = "kikaku-server"
+author = "ryo-server-developer"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "4a6a4399a49c3199214ee5fd4b61f4b0d46ad6c574ab909253e97c0797509229"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.251"

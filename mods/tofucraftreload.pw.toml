@@ -1,0 +1,13 @@
+name = "TofuCraftReload"
+filename = "tofucraft-1.21.1-12.20.8.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/69rMY8bC/versions/CDy1C4LY/tofucraft-1.21.1-12.20.8.0.jar"
+hash-format = "sha512"
+hash = "054d7bdf2492cc4e46b5ae6e4e6ac78488591e531c05709f93ac010bc1d35ea10c6d12911dee364aa87621d3b570743807f4f0266bba026fdc3d1afe2c3db642"
+
+[update]
+[update.modrinth]
+mod-id = "69rMY8bC"
+version = "CDy1C4LY"
