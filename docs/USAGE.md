@@ -2,19 +2,40 @@
 title: Prism Launcher 使い方
 ---
 
-# Prism Launcher 使い方
-
 ## 前準備
 1. Prism Launcherインストール
 
     - https://prismlauncher.org/
 
-2. packwiz-installerをダウンロード
+2. packwiz-installerをダウンロード(起動構成をインポートする場合は不要)
 
     - https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest
 
 
-## 起動構成作成
+## 起動構成をインポート
+1. 「起動構成を追加」を押下
+
+    ![](img/img01.png)
+
+2. 「インポート」を押下
+
+    ![](img/img17.png)
+
+3. 「ローカルファイルへのパスまたはダウンロードの直リンク」に以下のURLを設定
+
+    - https://ryo-server-developer.github.io/kikaku-neoforge-packwiz/RyoSV_NeoForge_1.21.1.zip
+
+    ![](img/img18.png)
+
+4. アイコンまたは「起動」を押下し、起動
+
+    ![](img/img10.png)
+
+
+※※MOD導入方法はページ下部に記載※※
+
+
+## 起動構成作成(起動構成をインポートする場合は不要)
 1. 「起動構成を追加」を押下
 
     ![](img/img01.png)
@@ -23,7 +44,7 @@ title: Prism Launcher 使い方
 
     - 名前：任意
     - バージョン：1.21.1
-    - Modローダー：NeoForge / バージョン：21.1.250
+    - Modローダー：NeoForge / バージョン：21.1.251
 
     ![](img/img02.png)
 
@@ -60,6 +81,7 @@ title: Prism Launcher 使い方
 10. アイコンまたは「起動」を押下し、起動
 
     ![](img/img10.png)
+
 
 ## Mod導入方法
 1. 「編集」を押下
