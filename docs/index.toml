@@ -206,6 +206,11 @@ hash = "4d4ce3197d8bd556afee26362180070066a6754c14da5ea1c400f7d588fef7e4"
 metafile = true
 
 [[files]]
+file = "mods/tacz-turrets.pw.toml"
+hash = "d00207187797bd76054423a2f3c56d8df6610c0f5cbc0d8c2768bba9644ed2de"
+metafile = true
+
+[[files]]
 file = "mods/tofucraftreload.pw.toml"
 hash = "f6b9af0869e14a562d4081968638b0b4274355af1c931aef81a06b83b7dc2887"
 metafile = true

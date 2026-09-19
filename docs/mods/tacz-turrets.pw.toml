@@ -1,0 +1,13 @@
+name = "TACZ Turrets"
+filename = "taczturrets-2.0.0-all.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8k8SjeJB/versions/GubHe16c/taczturrets-2.0.0-all.jar"
+hash-format = "sha512"
+hash = "45fd91631a4c5dcedae393c9e9e3f358a4390367e6ddb814102ec0100857c5ab7dde12ab20caa0e625f5a6bd083eb8988f1e5181817f0c78fb85ef3e9e4fb92d"
+
+[update]
+[update.modrinth]
+mod-id = "8k8SjeJB"
+version = "GubHe16c"
