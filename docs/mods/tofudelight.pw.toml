@@ -1,0 +1,13 @@
+name = "TofuDelight"
+filename = "tofudelight-1.21.1-6.7.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/aRSw5ou4/versions/VSV1jgLU/tofudelight-1.21.1-6.7.0.jar"
+hash-format = "sha512"
+hash = "e121a4b606aa402ca4ba168f559b7b34c40a0c42dd9c007fa899c1b85013f05ad30ea045887b5d0a8a2eb463fe24d45205d0293c03510f2f3b3b9717a2496cf6"
+
+[update]
+[update.modrinth]
+mod-id = "aRSw5ou4"
+version = "VSV1jgLU"

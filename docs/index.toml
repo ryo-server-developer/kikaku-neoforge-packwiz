@@ -6,6 +6,11 @@ hash = "187eafde5974beee1263538b462b7b8fe2fc8948c5d413980d9796d55928580b"
 metafile = true
 
 [[files]]
+file = "mods/azimuth-api.pw.toml"
+hash = "3f829f54e19ebb32f23f554e05bd49c005dfc057933e07d0df4f85e7085d314d"
+metafile = true
+
+[[files]]
 file = "mods/bagus-lib.pw.toml"
 hash = "3972111c01a29a062cd5f60bbb42bf519be69015398164162516891a8db61d15"
 metafile = true
@@ -16,8 +21,18 @@ hash = "2acaff560bbda5741538528a2967355ec86a8f7564adba0b2316989c66892374"
 metafile = true
 
 [[files]]
+file = "mods/copycats.pw.toml"
+hash = "4892513825f87217b6cc3f4d3ec4dcd3965b96dede8cc10d6578c4769102ae8e"
+metafile = true
+
+[[files]]
 file = "mods/cosmetic-armor-reworked-forked.pw.toml"
 hash = "a46ca4af9976720616c93d993965bd15317ed82746230c702c55eaf447be88fd"
+metafile = true
+
+[[files]]
+file = "mods/create-aeronautics-offroad-addon-stickywheels.pw.toml"
+hash = "2775edce751c45495239dca97bd753311489b9b5187005277c1d5d959954c6e3"
 metafile = true
 
 [[files]]
@@ -31,6 +46,11 @@ hash = "210419599e24212d879f58d0b3bacb74dec6d64703f49f1c547440bf7705e942"
 metafile = true
 
 [[files]]
+file = "mods/create-bits-n-bobs.pw.toml"
+hash = "2aa588c0760e81c40fae4df29e14643ddb19d40474bf177206a8f687e70b953e"
+metafile = true
+
+[[files]]
 file = "mods/create-coasters-simulated.pw.toml"
 hash = "d5aad6415413aa777ed89ae55912f33c86757321c7c16c8392ce2e1429b920d5"
 metafile = true
@@ -38,6 +58,11 @@ metafile = true
 [[files]]
 file = "mods/create-collision-crashfix.pw.toml"
 hash = "c4576330dd89aada6c3d2598554152689ffa390db6b822ef95b356f167697ae0"
+metafile = true
+
+[[files]]
+file = "mods/create-connected.pw.toml"
+hash = "6ac362d60bc8b13e03a5b6b9cdf9c7676f65d3e89e87c66f18514e7ee164cdb0"
 metafile = true
 
 [[files]]
@@ -76,6 +101,11 @@ hash = "dd46758c8eb82deb6dcd56a9879dc5e583ff812245ebb357fd79053a60c58871"
 metafile = true
 
 [[files]]
+file = "mods/create-transmission!.pw.toml"
+hash = "663f6f9ee22b3f7ce9f84542842319249fb28ca5a5e26039575834f1ea602d68"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
 metafile = true
@@ -88,6 +118,11 @@ metafile = true
 [[files]]
 file = "mods/curios.pw.toml"
 hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
+metafile = true
+
+[[files]]
+file = "mods/farmers-delight.pw.toml"
+hash = "97347efd9e808841d72fe3599da8a11add8422e97f89ae1c85cdfc0acfa18f96"
 metafile = true
 
 [[files]]
@@ -151,6 +186,11 @@ hash = "2d45e747634f18813476b01a13507fa99e01e330334f11c3ed8b6a074faf3b5f"
 metafile = true
 
 [[files]]
+file = "mods/strut-your-stuff.pw.toml"
+hash = "aa89e067824ca42d818a81a6d02ce5296ce662d834c35dd2ff0d81189d3bc3f9"
+metafile = true
+
+[[files]]
 file = "mods/superb-warfare.pw.toml"
 hash = "e394af85d74299710eba67d4c36b9e52bf1b8a3e02c90fe1263b25ed70239d47"
 metafile = true
@@ -168,6 +208,11 @@ metafile = true
 [[files]]
 file = "mods/tofucraftreload.pw.toml"
 hash = "f6b9af0869e14a562d4081968638b0b4274355af1c931aef81a06b83b7dc2887"
+metafile = true
+
+[[files]]
+file = "mods/tofudelight.pw.toml"
+hash = "ae6834b6ef10dc68d06c628f5723c4f4b327ab1e11fc49a7ca45745249ad1c21"
 metafile = true
 
 [[files]]
