@@ -8,8 +8,6 @@
 https://ryo-server-developer.github.io/kikaku-neoforge-packwiz/pack.toml
 ```
 
-このリポジトリは kikaku-server 本体の Kubernetes マニフェスト([rouzinkai-infra](https://github.com/rouzinkai-dev/rouzinkai-infra) の `k8s/prd/manifest/ryo-server/kikaku-server/`)とは別リポジトリです。サーバー起動時に `PACKWIZ_URL` 環境変数からこの `pack.toml` を参照し、MOD 一式を自動ダウンロードします。
-
 ## 構成
 
 GitHub Pages の source path は `/docs` です。`docs/` 配下だけが Web サイト・PrismLauncher等のクライアントの双方から見えます。`README.md` / `CLAUDE.md` / `mise.toml` はリポジトリ直下にあり、**非公開**です。
