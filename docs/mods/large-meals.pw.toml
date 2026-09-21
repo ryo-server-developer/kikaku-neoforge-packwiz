@@ -1,0 +1,13 @@
+name = "Large Meals"
+filename = "large_meals-1.21.1-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/vf2Brcj3/versions/BFdQ9aqQ/large_meals-1.21.1-1.0.1.jar"
+hash-format = "sha512"
+hash = "edd7cc275c6c0e0f071125ac879f68604e3545dfcb761e7945e2debb8560358547b613a137395ae16ef43120af9a3de459b5bb0a6ad0ebcca8ebf8501c1d15f4"
+
+[update]
+[update.modrinth]
+mod-id = "vf2Brcj3"
+version = "BFdQ9aqQ"
