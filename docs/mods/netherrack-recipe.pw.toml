@@ -1,0 +1,13 @@
+name = "Create: Netherrack Recipe"
+filename = "netherrack-recipe-1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/AO6B352P/versions/7zYekGZg/netherrack-recipe-1.jar"
+hash-format = "sha512"
+hash = "306a2b1d2898879962adb63f4c34045f39dcd252f6c6cee82215f598178209280d2891f06703f9fee1642dfc6681eefb46a2b3cc18513debd5836b5372d34deb"
+
+[update]
+[update.modrinth]
+mod-id = "AO6B352P"
+version = "7zYekGZg"
