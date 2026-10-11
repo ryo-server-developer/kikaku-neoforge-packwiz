@@ -136,6 +136,16 @@ hash = "bc5c6f8ea0e3a739da6977506ebeece414c737066660134d3c2469be94677618"
 metafile = true
 
 [[files]]
+file = "mods/create-numismatics-craftable-coins.pw.toml"
+hash = "e4787c30b4f2c55ba8a1f19a6e1958b9b3fb39a520dc01367014cdfdbb611080"
+metafile = true
+
+[[files]]
+file = "mods/create-ochrum-recipe.pw.toml"
+hash = "99e263541b4f4b001c887839bf057d42e272f17770ed9794e6bb9514a567b1b4"
+metafile = true
+
+[[files]]
 file = "mods/create-propulsion-simulated.pw.toml"
 hash = "f82cdd570cb4f6bd9b87a6a30c5e5ecc23125dfcecc715d4950a17301de8c58a"
 metafile = true
@@ -163,6 +173,11 @@ metafile = true
 [[files]]
 file = "mods/create-transmission!.pw.toml"
 hash = "663f6f9ee22b3f7ce9f84542842319249fb28ca5a5e26039575834f1ea602d68"
+metafile = true
+
+[[files]]
+file = "mods/create-ultimate-factory.pw.toml"
+hash = "34d808989e71221b8e01a44bc8031f20af1c94981acb0cba4669e0e58be69629"
 metafile = true
 
 [[files]]

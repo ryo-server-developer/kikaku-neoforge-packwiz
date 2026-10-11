@@ -1,0 +1,13 @@
+name = "Create Numismatics: Craftable Coins"
+filename = "craftable_coins-1.1-RELEASE.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/3cQ5pYio/versions/yhagbQsO/craftable_coins-1.1-RELEASE.jar"
+hash-format = "sha512"
+hash = "17f4648459672625373470045928ee01627c74423fd6c73f0c5e6c106fd67a14b65cc7e3c492ef6697c1b4da65b8a91d7924aca96e09839e9b441d02a86deeb3"
+
+[update]
+[update.modrinth]
+mod-id = "3cQ5pYio"
+version = "yhagbQsO"
